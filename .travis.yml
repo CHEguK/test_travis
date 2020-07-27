@@ -4,5 +4,6 @@ script:
 
 deploy:
   provider: heroku
-  api_key: ''
+  api_key:
+    secure: API_KEY
   app: cryptic-springs-28953
